@@ -3,7 +3,7 @@ Calculates no. of determinants possible for a given numbers K and N.
 K! and N! can be numbers with an arbitrary length, limited only by the memory.
 
 ## For setup on ganymede2 
-clone the dev branch
+clone the repository
 
 1. load **Boost** <br>
     run "module load boost"

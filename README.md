@@ -4,9 +4,9 @@ K! and N! can be numbers with an arbitrary length, limited only by the memory.
 
 ## For setup on ganymede2
 
-1. load **Boost**
-     run "module load boost"
-2. Find **Boost include path**
-     run "find $BOOST_ROOT -name "cpp_int.hpp" 2>/dev/null"
-3. From terminal output, copy path to "/include"
+1. load **Boost** \n
+    \t run "module load boost"
+2. Find **Boost include path** \n
+    \t run "find $BOOST_ROOT -name "cpp_int.hpp" 2>/dev/null"
+3. From terminal output, copy path upuntil "/include"
 4. run ** g++ -I/<PASTE THE PATH HERE> -o <output file name> binom_coeff.cpp

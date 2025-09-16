@@ -6,7 +6,8 @@ K! and N! can be numbers with an arbitrary length, limited only by the memory.
 clone the repository
 
 1. load **Boost** <br>
-    run "module load boost"
+    run **"module purge"**
+    run "module load gnu12/12.4.0 mpich/3.4.3-ofi boost/1.81.0"
 2. Find **Boost include path** <br>
    run "find $BOOST_ROOT -name "cpp_int.hpp" 2>/dev/null"
 3. From terminal output, copy path upuntil "/include"

@@ -15,5 +15,5 @@ clone the repository
 5. run the program with **./\<output file name\>**
 
 ## Fortran version can be found under the file extension .f90
-This version can be compiled directly with **gfortran** command and no additional libraries are needed <br \>
+This version can be compiled directly with **gfortran** command and no additional libraries are needed\
 run **gfortran bi_coeff.f90 -o \<desired name for the executable\>**

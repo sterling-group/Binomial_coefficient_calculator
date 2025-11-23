@@ -12,4 +12,7 @@ clone the repository
    run "find $BOOST_ROOT -name "cpp_int.hpp" 2>/dev/null"
 3. From terminal output, copy path upuntil "/include"
 4. run **g++ -I/\<PASTE THE PATH HERE\> -o \<output file name\> binom_coeff.cpp**
-5. run the program with **./\<output file name\>** 
+5. run the program with **./\<output file name\>**
+
+## Fortran version can be found under the file extension .f90
+This version can be compiled directly with gfortran command and no additional libraries are needed
